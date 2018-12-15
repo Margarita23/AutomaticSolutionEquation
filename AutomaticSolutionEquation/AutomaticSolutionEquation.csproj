@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EquationsClasses\QuadraticEquation.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="EquationsClasses\SimpleEquation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +60,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuadraticEquations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuadraticEquations.Designer.cs">
+      <DependentUpon>QuadraticEquations.cs</DependentUpon>
+    </Compile>
     <Compile Include="SimpleEquations.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +84,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="QuadraticEquations.resx">
+      <DependentUpon>QuadraticEquations.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SimpleEquations.resx">
       <DependentUpon>SimpleEquations.cs</DependentUpon>
     </EmbeddedResource>

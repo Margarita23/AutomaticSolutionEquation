@@ -46,10 +46,10 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "* x +";
             // 
-            // textBox1
+            // a
             // 
             this.a.Location = new System.Drawing.Point(63, 28);
-            this.a.Name = "textBox1";
+            this.a.Name = "a";
             this.a.Size = new System.Drawing.Size(45, 20);
             this.a.TabIndex = 1;
             this.a.Text = "a";
@@ -96,9 +96,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(102, 145);
+            this.label3.Font = new System.Drawing.Font("Leelawadee", 15.75F);
+            this.label3.Location = new System.Drawing.Point(143, 140);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(24, 13);
+            this.label3.Size = new System.Drawing.Size(48, 25);
             this.label3.TabIndex = 6;
             this.label3.Text = "x = ";
             // 
@@ -106,7 +107,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(339, 284);
+            this.ClientSize = new System.Drawing.Size(339, 211);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox3);

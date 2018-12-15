@@ -27,5 +27,10 @@ namespace AutomaticSolutionEquation
             SimpleEquations se = new SimpleEquations();
             se.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
