@@ -43,7 +43,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Leelawadee", 15.75F);
-            this.label3.Location = new System.Drawing.Point(149, 149);
+            this.label3.Location = new System.Drawing.Point(27, 135);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(48, 25);
             this.label3.TabIndex = 13;
