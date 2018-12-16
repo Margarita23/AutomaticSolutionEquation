@@ -14,12 +14,13 @@ namespace AutomaticSolutionEquation.EquationsClasses
         {
             this.a = Convert.ToDouble(a);
             this.b = Convert.ToDouble(b);
-            this.c = Convert.ToDouble(c);
+            this.c = Convert.ToDouble(c) - Convert.ToDouble(d);
             this.d = Convert.ToDouble(d);
         }
 
         public double?[] Solve()
         {
+
             double discriminant = (b * b) - (4 * a * c);
             double?[] res = new double?[2] { null, null};
 

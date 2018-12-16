@@ -33,5 +33,12 @@ namespace AutomaticSolutionEquation
             QuadraticEquations qe = new QuadraticEquations();
             qe.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            CubicEquations ce = new CubicEquations();
+            ce.Show();
+
+        }
     }
 }

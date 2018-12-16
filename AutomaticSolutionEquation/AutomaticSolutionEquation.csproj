@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CubicEquations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CubicEquations.Designer.cs">
+      <DependentUpon>CubicEquations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EquationsClasses\CubicEquation.cs" />
     <Compile Include="EquationsClasses\QuadraticEquation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +79,9 @@
     <Compile Include="SimpleEquations.Designer.cs">
       <DependentUpon>SimpleEquations.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CubicEquations.resx">
+      <DependentUpon>CubicEquations.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +100,7 @@
     <EmbeddedResource Include="SimpleEquations.resx">
       <DependentUpon>SimpleEquations.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
