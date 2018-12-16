@@ -8,7 +8,7 @@ namespace AutomaticSolutionEquation.EquationsClasses
 {
     class CubicEquation
     {
-        private double a, b, c, d, f;
+        private double a, b, c, d;
 
         public CubicEquation(string a, string b, string c, string d, string f)
         {
